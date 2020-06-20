@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Staatliches&display=swap');
+*,html{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+/* Container start */
+.container{
+  padding: 15px;
+  background:   #f2f4f4  ;
+  
+}
+/* Container end */
+
+
+/* Header start */
+
+.header{
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+.coin{
+  color: gold;
+}
+
+/* Header  end  */
+
+
+
+/* Mainbalance start */
+
+.mainbalance{
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.mainbalance span {
+  font-size: 25px;
+  font-weight: bolder;
+ 
+}
+/* Mainbalance end */
+
+
+/* IncomeExpance start */
+.incomeexpance{
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 17px; 
+  text-align: center;
+  border: 1px solid  #d5d8dc ;
+  background-color: white;
+  box-shadow: 5px  5px 3px  #d5d8dc ;
+  padding: 20px;
+  margin-bottom: 30px;  
+  align-items: center;
+  
+}
+
+.incomeexpance  .line{
+  border-left: 2px  solid  gray;
+  /* border-style: double; */
+  /* opacity: 0.3; */
+}
+.incomeexpance .red span{
+  margin-top: 5px;
+  color: red;
+}
+.incomeexpance .green span{
+  color: rgb(19, 233, 19);
+  margin-top: 5px;
+}
+.incomeexpance span{
+  font-weight: bold;
+  font-size: 22px;
+}
+/* IncomeExpance end */
+
+
+/* Transection start */
+.transection{
+  margin-bottom: 30px;
+  
+}
+.transection hr {
+  margin-top: 5px;
+  opacity: 0.3;
+}
+.transection p{
+  font-weight: bold;
+}  
+.transection .orderlist{
+  margin-top: 10px;
+  list-style: none;
+  
+}
+.transection .orderlist .trasectionpage  li{
+  border: 1px solid  #d5d8dc ;
+  background-color: white;
+  box-shadow: 3px  3px 2px  #d5d8dc ;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  
+}
+.transection .orderlist .trasectionpage  li span{
+  font-weight: 500;
+  float: right;
+}
+.transection button{
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  /* color: rgb(216, 11, 216); */
+  font-weight: bold;
+  display: none;
+}
+.transection .orderlist .trasectionpage li:hover button
+{
+  display: inline;
+}
+
+.transection .orderlist .trasectionpage  .plus{
+  border-right: 5px solid rgb(19, 233, 19);
+}
+
+.transection .orderlist .trasectionpage .minus{
+  border-right: 5px solid red;
+}
+
+.delete{
+  color: red;
+}
+/* Transection end */
+
+
+
+/* Newtransection start */
+
+.newtransection .controlform{
+  margin-top: 15px;
+}
+
+.controlform .labelmargin{
+  font-size: 15px;
+}
+.controlform  input{
+  padding: 8px;
+  font-size: 16px;
+  /* height: 13px; */
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.controlform div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.controlform label span{
+  font-size: 13px;
+}
+.newtransection p{
+  font-weight: bold;
+}
+.newtransection hr{
+  margin-top: 5px;
+  opacity: 0.3;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.newtransection .income{
+  margin-top: 10px;
+  width: 45%;
+  background-color: rgb(19, 233, 19);
+  margin-right: 5px;
+  color: white;
+  /* height: 33px; */
+  cursor: pointer;
+  border-radius: 13px;
+  text-align: center;
+  border: none;
+  font-size: 17px;
+  padding: 7px;
+}
+.newtransection .expence{
+  margin-top: 10px;
+  width: 45%;
+  text-align: center;
+  background-color: red;
+  color: white;
+  /* height: 33px; */
+  cursor: pointer;
+  border-radius: 13px;
+  border: none;
+  font-size: 17px;
+  padding: 7px;
+}
+/* Newtransection end */

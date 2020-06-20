@@ -16,9 +16,12 @@ const IncomeExpance = () => {
     expance = Math.abs(expance).toFixed(2);
     return (
         <div className="incomeexpance" >
-            <p className="green" >INCOME <br /> <span >{income} PKR</span>   </p>
-            <p className="line" ></p>
-            <p className="red" >EXPENCE <br /> <span>{sign}{expance}  PKR</span></p>
+            <div>
+                <p className="green" >INCOME <br /> <span >{income} PKR</span>   </p>
+            </div>
+            <div>
+                <p className="red" >EXPENCE <br /> <span>{sign}{expance}  PKR</span></p>
+            </div>
         </div>
     );
 }

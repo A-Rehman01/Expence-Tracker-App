@@ -32,7 +32,8 @@ jobs:
         cmd: install
      
     - name: font  awsome
-      run: yarn add @fortawesome/react-fontawesome
+      run:  yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
      
     - name: make build/api
       run : yarn build

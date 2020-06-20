@@ -31,6 +31,9 @@ jobs:
         # Yarn command
         cmd: install
      
+    - name: font  awsome
+      run: yarn add @fortawesome/react-fontawesome
+     
     - name: make build/api
       run : yarn build
        
